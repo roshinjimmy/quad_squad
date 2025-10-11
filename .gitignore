@@ -1,1 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
 venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Machine Learning / TensorFlow
+*.h5
+*.pb
+*.tflite
+*.ckpt
+*.ckpt.*
+checkpoints/
+logs/
+tensorboard/
+saved_models/
+*.keras
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
